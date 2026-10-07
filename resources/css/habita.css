@@ -1,0 +1,20 @@
+/* HabitaControl semantic layer + "Plano nocturno" theme. */
+:root,[data-theme]{
+  --hc-muted:color-mix(in srgb,var(--color-text) 62%,transparent);
+  --hc-faint:color-mix(in srgb,var(--color-text) 6%,transparent);
+  --hc-line:color-mix(in srgb,var(--color-text) 8%,transparent);
+  --hc-mono:ui-monospace,'SF Mono',Menlo,monospace;
+  --hc-sidebar-w:232px;
+  --hc-topbar-h:60px;
+  --hc-display:38px;
+  --hc-status-strong-bg:var(--color-accent);
+  --hc-status-strong-fg:var(--color-bg);
+  --hc-status-mid-fg:var(--color-accent-700);
+  --hc-status-soft-bg:var(--color-accent-100);
+  --hc-status-soft-fg:var(--color-accent-800);
+  --hc-status-quiet-bg:var(--color-neutral-100);
+  --hc-status-quiet-fg:var(--color-neutral-800);
+}
+/* Los botones nunca parten su etiqueta en dos líneas */
+.btn{white-space:nowrap}
+[data-theme="noche"]{--color-bg:#1d2d3d;--color-surface:#233649;--color-text:#e6ecf2;--color-accent:#94bce3;--color-accent-100:#2c455d;--color-accent-600:#b5d9fd;--color-accent-700:#b5d9fd;--color-accent-800:#d6ebff;--color-neutral-100:#26394c;--color-neutral-800:#d4d4d7;--color-divider:color-mix(in srgb,#e6ecf2 18%,transparent);--shadow-lg:0 12px 32px rgba(0,0,0,.45);color-scheme:dark}

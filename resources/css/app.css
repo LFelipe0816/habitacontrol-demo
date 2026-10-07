@@ -1,0 +1,6 @@
+@import './industry.css';
+@import './habita.css';
+
+html, body, #app { height: 100%; }
+a { color: var(--color-accent-700); text-decoration: none; }
+a:hover { color: var(--color-accent); text-decoration: underline; }
